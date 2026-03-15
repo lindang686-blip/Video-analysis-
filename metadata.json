@@ -1,0 +1,5 @@
+{
+  "name": "EngSync",
+  "description": "An English learning app that syncs with videos, extracts learning points, and provides AI-powered review tools like a Hermione podcast and Ebbinghaus memory training.",
+  "requestFramePermissions": []
+}
