@@ -1,13 +1,7 @@
 import { GoogleGenAI, Type, Modality } from "@google/genai";
 import { LearningPoint } from "../store";
 
-const apiKey = process.env.GEMINI_API_KEY;
-
-if (!apiKey) {
-  throw new Error('Missing GEMINI_API_KEY');
-}
-
-const ai = new GoogleGenAI({ apiKey });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 const MOCK_SUBTITLES = [
   "I was gonna to the store, but I ain't got no money.",
